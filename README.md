@@ -54,7 +54,7 @@ from scheduler_field.commands import run_function_for_date
 def run_scheduled_tasks(self):
     print("running task")
     run_function_for_date(now())
-`` 
+```
 
 This will run the `send_reminder_email` method for every row that resolves `reminder_date == now`
 
